@@ -5,7 +5,7 @@ async function main() {
      * Connection URI. Update <username>, <password>, and <your-cluster-url> to reflect your cluster.
      * See https://docs.mongodb.com/ecosystem/drivers/node/ for more details
      */
-    const uri = "mongodb+srv://gauravchakravorty:Jaiguru%40321@testmynodeapp.9iknl.mongodb.net/";
+    const uri = "mongodb+srv://gauravchakravorty:{password}@testmynodeapp.9iknl.mongodb.net/";
 
     /**
      * The Mongo Client you will use to interact with your database
